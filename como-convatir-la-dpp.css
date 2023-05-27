@@ -1,0 +1,44 @@
+.body {
+  background: #1d2b64; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f8cdda,
+    #1d2b64
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8cdda,
+    #1d2b64
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tit {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.p {
+  width: 40%;
+  text-align: left;
+  letter-spacing: 3px;
+}
+.regresar {
+  float: right;
+  display: flexbox;
+  background-color: #1d0a0a;
+  border: 1px solid cornsilk;
+  padding: 10px;
+  width: 60px;
+  height: 20px;
+  color: aliceblue;
+  text-decoration-line: none;
+}
+img {
+  width: 500px;
+  height: 450px;
+  float: right;
+}
